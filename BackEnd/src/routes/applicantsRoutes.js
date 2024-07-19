@@ -1,9 +1,9 @@
 const express = require('express');
 const router = express.Router();
+const applicantsController = require('../controllers/applicantsController');
 
-router.get('list', function(req, res) {
-    return ({title: 'API Aspirantes'});
-  });
-//router.get('/detail/:id', {});
+//API aspirantes
+router.get('/',applicantsController.renderList);
+router.get('/:id',applicantsController.renderDetail);
 
 module.exports = router;

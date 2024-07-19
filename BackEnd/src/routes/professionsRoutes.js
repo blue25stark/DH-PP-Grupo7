@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
+const professionsController = require('../controllers/professionsController');
 
-router.get('/list', function(req, res) {
-    return ({title: 'API Profesiones'});
-  });
+//API profesiones
+router.get('/',professionsController.renderList);
 
 module.exports = router;
