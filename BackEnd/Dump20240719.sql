@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `recruitingrh` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `recruitingrh`;
 -- MySQL dump 10.13  Distrib 8.0.32, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: recruitingrh
@@ -104,10 +106,6 @@ LOCK TABLES `profesiones` WRITE;
 INSERT INTO `profesiones` VALUES (1,'Desarrollador de Software',NULL,'Desarrolla y mantiene aplicaciones de software.'),(2,'Ingeniero de Sistemas',NULL,'Diseña y gestiona sistemas de información a gran escala.'),(3,'Analista de Datos',NULL,'Interpreta datos y proporciona insights para la toma de decisiones.'),(4,'Especialista en Ciberseguridad',NULL,'Protege los sistemas y redes contra ciberataques.'),(5,'Administrador de Base de Datos',NULL,'Gestiona y organiza bases de datos.'),(6,'Ingeniero DevOps',NULL,'Automatiza y mejora los procesos de desarrollo y operación.'),(7,'Arquitecto de Soluciones',NULL,'Diseña soluciones tecnológicas integrales para problemas empresariales.'),(8,'Desarrollador Frontend',NULL,'Se especializa en la construcción de interfaces de usuario.'),(9,'Desarrollador Backend',NULL,'Se especializa en la lógica del lado del servidor y la integración de bases de datos.'),(10,'Analista de Sistemas',NULL,'Analiza y mejora los sistemas informáticos existentes.');
 /*!40000 ALTER TABLE `profesiones` ENABLE KEYS */;
 UNLOCK TABLES;
-
---
--- Dumping routines for database 'recruitingrh'
---
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -118,4 +116,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-07-17 14:59:31
+-- Dump completed on 2024-07-19 21:28:45
