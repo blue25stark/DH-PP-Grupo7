@@ -6,6 +6,7 @@ import PanelGeneral from './pages/PanelGeneral'
 import ListApplicants from './pages/ListApplicants'
 import VistaError from './pages/Error404'
 import ContactForm from './pages/ContactForm'
+import DetailCandidate from './pages/DetailCandidate'
 
 //Components generals
 import Banner from './components/ApplicationBanner'
@@ -26,6 +27,7 @@ function App() {
         <Route path="/companies" element={<VistaError />} />
         <Route path="/login" element={<VistaError />} />
         <Route path="/contact" element={<ContactForm />} />
+        <Route path="/detail" element={<DetailCandidate />} />
       </Routes>
       <div>
         <Footer></Footer>
