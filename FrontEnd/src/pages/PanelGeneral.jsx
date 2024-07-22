@@ -1,21 +1,28 @@
 import ListaProfesiones from '../components/ListaProfesiones'
 import ListaAspirantes from '../components/ListaAspirantes'
-import Banner from '../components/ApplicationBanner'
-import NavBar from '../components/NavigationBar'
 import Search from '../components/SectionSearch'
 import Companies from '../components/SectionCompanies'
-import Footer from '../components/Footer'
 
 function PanelGeneral () {
   return (
     <>
-      <Banner></Banner>
-      <NavBar></NavBar>
       <Search></Search>
-      <ListaAspirantes></ListaAspirantes>
+      <div>
+        <ListaAspirantes></ListaAspirantes>
+        <div className="mt-10 flex items-center justify-center gap-x-6">
+          <a
+            href="#"
+            className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            Postularme
+          </a>
+          <a href="/applicants" className="text-sm font-semibold text-gray-900">
+            Ver mas aspirantes <span aria-hidden="true">&rarr;</span>
+          </a>
+        </div>
+      </div>
       <ListaProfesiones></ListaProfesiones>
       <Companies></Companies>
-      <Footer></Footer>
     </>
   )
 }
