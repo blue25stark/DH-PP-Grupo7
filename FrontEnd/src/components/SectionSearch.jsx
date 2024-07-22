@@ -1,7 +1,7 @@
 export default function Example() {
     return (
       <div className="bg-white">
-        <div className="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+        <div className="mx-auto max-w-7xl py-6 sm:px-6 sm:py-8 lg:px-8">
           <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg
               viewBox="0 0 1024 1024"
@@ -12,7 +12,7 @@ export default function Example() {
               <defs>
                 <radialGradient id="759c1415-0410-454c-8f7c-9a820de03641">
                   <stop stopColor="#7775D6" />
-                  <stop offset={1} stopColor="#E935C1" />
+                  <stop offset={1} stopColor="#347cfc" />
                 </radialGradient>
               </defs>
             </svg>

@@ -5,18 +5,20 @@ import NavBar from '../components/NavigationBar'
 import Search from '../components/SectionSearch'
 import Companies from '../components/SectionCompanies'
 import Footer from '../components/Footer'
+import Detalle from '../pages/DetailCandidate'
 
 function PanelGeneral () {
   return (
-    <div>
-        <Banner></Banner>
-        <NavBar></NavBar>
-        <Search></Search>
-        <ListaAspirantes></ListaAspirantes>
-        <ListaProfesiones></ListaProfesiones>
-        <Companies></Companies>
-        <Footer></Footer>
-    </div>
+    <>
+      <Banner></Banner>
+      <NavBar></NavBar>
+      <Search></Search>
+      <ListaAspirantes></ListaAspirantes>
+      <ListaProfesiones></ListaProfesiones>
+      <Companies></Companies>
+      <Footer></Footer>
+      <Detalle></Detalle>
+    </>
   )
 }
 
