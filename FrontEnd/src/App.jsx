@@ -1,6 +1,6 @@
 import './App.css'
 import { Route,Routes } from 'react-router-dom'
-import PanelGeneral from './components/PanelGeneral'
+import PanelGeneral from './pages/PanelGeneral'
 
 function App() {
 
